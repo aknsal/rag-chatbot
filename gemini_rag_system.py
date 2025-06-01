@@ -1,7 +1,6 @@
 import os
 from typing import List, Tuple, Dict, Any
 import google.generativeai as genai
-import google.genai as generalai
 from vector_store import VectorStore
 from utils import chunk_text
 from icecream import ic
@@ -12,8 +11,6 @@ class GeminiRAGSystem:
         api_key = os.getenv("GEMINI_API_KEY", "")
         if not api_key:
             raise Exception("GEMINI_API_KEY environment variable is required")
-        
-        self.client = generalai.Client(api_key=api_key)
         
         genai.configure(api_key=api_key)
         self.model = genai.GenerativeModel('gemini-2.5-flash-preview-05-20')
