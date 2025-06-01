@@ -1,5 +1,5 @@
 [project]
-name = "customer support chatbot"
+name = "customer-support-chatbot"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.11"
