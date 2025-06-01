@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 import trafilatura
 from urllib.parse import urljoin, urlparse
 from document_processor import DocumentProcessor
-from readability import Document
 from icecream import ic
 
 class AngelOneScraper:
