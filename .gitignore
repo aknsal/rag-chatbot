@@ -66,7 +66,6 @@ metadata.pkl
 
 # Scraped and processed docs
 scraped_docs/
-test_documents/
 
 # OS files
 .DS_Store
