@@ -18,3 +18,5 @@ dependencies = [
     "trafilatura>=2.0.0",
     "icecream>=2.1.4",
 ]
+[tool.poetry]
+package-mode = false
